@@ -59,9 +59,9 @@
 	color: black;
 }
 .sec3{
-	background-color: skyblue;
+	background-color: #00BFFF ;
 	color: white;
-	font-size: 20px;
+	font-size: 16px;
 	padding: 5%;
 	font-family: sans-serif;
 }
@@ -69,31 +69,35 @@
 	text-decoration: none;
 	color: white;
 }
+.bills{
+	margin-bottom: 2%;
+	font-size: 30px;
+}
 .paybills{
 	display: flex;
 	justify-content: space-between;
-	background-color: skyblue;
 	color: white;
-	padding: 2%;
+	
 }
 .sec4{
-	background-color: blue;
+	background-color: #043e7d;
 	color: white;
 	padding: 5%;
-	font-size: 25px;
+	font-size: 18px;
 	font-family: 'poppins', sans-serif;
 }
 .sec4 a{
 	text-decoration: none;
 	color: white;
 }
+.buy{
+	font-size: 30px;
+}
 .books{
 	display: flex;
 	justify-content: space-between;
-	background-color: blue;
 	color: white;
 	padding: 2%;
-	
 }
 .sec5{
 	background-color: rgba(239, 239, 239, 0.6);
@@ -277,7 +281,7 @@
 	display: flex;
 	justify-content: space-evenly;
 	padding-top: 7%;
-	padding-left: 7%;
+	padding-left: 5%%;
 	padding-bottom: 6%;
 	padding-right: 4%;
 }
@@ -291,6 +295,7 @@
 }
 .money{
 	font-size: 17px;
+	margin-bottom: 6%;
 }
 .sec11{
 	display: flex;
@@ -327,14 +332,128 @@
 	background-color: rgba(239, 239, 239, 0.6);
 	display: flex;
 	justify-content: space-between;
-	margin-top: 5%;
+	margin-top: 6%;
 	padding-top: 7%;
-	padding-left: 7%;
-}
-.loan{
-	margin-right: 10%;
+	padding-left: 6%;
+	padding-right: 4%;
+	padding-bottom: 7%;
 }
 .get{
-	margin-top: 4%;
-	margin-bottom: 3%;
+	font-size: 30px;
+	margin-top: 7%;
+	margin-bottom: 5%;
+}
+.sec13{
+	background-color: rgba(239, 239, 239, 0.6);
+	display: flex;
+	justify-content: space-between;
+	padding-top: 2%;
+	padding-right: 6%;
+	padding-left: 6%;
+	padding-bottom: 2%;
+}
+.sec13div{
+	background-color: white;
+}
+
+@media (max-width: 390px){
+	.navigation a{
+		font-size: 5px;
+	}
+	.wallet{
+		font-size: 9px;
+	}
+	.india{
+		font-size: 25px;
+	}
+	.recharge{
+		font-size: 10px;
+	}
+	.paybills{
+		flex-direction: column;
+		align-items: center;
+		font-size: 19px;
+	}
+	.books{
+		flex-direction: column;
+		align-items: center;
+		
+	}
+	.books p{
+		font-size: 20px !important;
+	}
+	.online{
+		font-size: 13px;
+	}
+	.load{
+		font-size: 7px;
+	}
+	.image4{
+		width: 30%;
+	}
+	.image5{
+		width: 10%;
+	}
+	.pay{
+		font-size: 10px;
+	}
+	.account{
+		font-size: 3px;
+	}
+	.image6{
+		width: 30%;
+	}
+	.wantit{
+		font-size: 10px;
+	}
+	.with{
+		font-size: 3px;
+	}
+	.unlimted{
+		font-size: 10px;
+	}
+	.most{
+		font-size: 10px;
+	}
+	.hdfc{
+		font-size: 7px;
+	}
+	.sbi{
+		font-size: 7px;
+	}
+	.service{
+		font-size: 17px;
+	}
+	.offer{
+		font-size: 8px;
+	}
+	.image17{
+		width: 30%;
+	}
+	.image16{
+		margin-bottom: 0%;
+	}
+	.build{
+		font-size: 9px;
+		margin-top: 1%;
+		margin-bottom: 1%;
+	}
+	.money{
+		font-size: 9px;
+		margin-top: 1%;
+		margin-bottom: 1%;
+	}
+	.insurance{
+		font-size: 10px;
+	}
+	.buying{
+		font-size: 9px;
+	}
+	.get{
+		font-size: 10px;
+	}
+	.learn{
+		font-size: 5px;
+		margin-top: 1%;
+	}
 }
